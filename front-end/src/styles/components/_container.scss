@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container__left {
+  height: 95vh;
+  width: 10vw;
+  background: #9ab1c9;
+  border-right: 1px solid fade-out(white, .8);;
+  float: left;
+  // position: relative;
+}
+
+.container__left__text {
+  height: 100%;
+  // display: flex;
+  // flex-direction: column-reverse;
+  overflow: auto;
+  // justify-content: flex-start;
+  // align-items: flex-start;
+}
+
+.room-name {
+  text-decoration: none;
+  color: $off-white;
+  font-size: $font-size-small;
+  padding: $m-size $l-size;
+  
+}
+
+.room-name-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid fade-out(white, .8);  
+  &:hover {
+    background: fade-out(white, 0.8);
+  }
+}
+
+.room-selected {
+  div {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: $font-size-small;
+    padding: $m-size $l-size;
+  }
+}
