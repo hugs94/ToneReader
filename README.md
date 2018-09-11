@@ -24,6 +24,10 @@ I had just learned Redux while making this project. Logic was handled within fir
 which is a poor choice (to be changed).
 
 Goals reached:
+- Working chat application
+- Chat rooms
+- NON-OAuth login - chosen due to the direction I wanted to take the application. There is no reason
+to connect a login to be 0Auth for this app.
 - ToneReader only reads the latest 5 messages to analyze the tone, to simulate 'realistic' 
 chat tonality flow.
 
