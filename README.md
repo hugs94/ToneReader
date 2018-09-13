@@ -1,5 +1,8 @@
 # ToneReader
 
+
+The project is not fully completed, but is currently live on https://tonechatter.herokuapp.com
+
 ToneReader is a finals sample React project that I (Hugo) created.
 Complete stack is React-Redux-Redux-Thunk-Express(Node.js)-Firebase
 
@@ -13,7 +16,6 @@ then display a color within a range based on the score returned by Watson.
 
 As of yet, this web app has not been styled due to original working constraints.
 
-The project is not fully completed, but is currently live on https://tonechatter.herokuapp.com
 
 Learning notes:
 - Firebase as a simple socket backed for the chat and user portion
