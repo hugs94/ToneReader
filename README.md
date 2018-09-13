@@ -18,7 +18,7 @@ As of yet, this web app has not been styled due to original working constraints.
 
 
 Learning notes:
-- Firebase as a simple socket backed for the chat and user portion
+- Firebase as a simple socket backend for the chat and user portion
 - Tonality was reflected using d3 color scale, 0-1 range allowing for Watsons return JSON
   to be read with high percision
 - Redux was used to help with state control, as an aside, the logic was handled poorly as
